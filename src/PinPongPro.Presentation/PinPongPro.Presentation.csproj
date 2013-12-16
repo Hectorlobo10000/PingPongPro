@@ -177,6 +177,7 @@
       <DependentUpon>Global.asax</DependentUpon>
     </Compile>
     <Compile Include="Infrastructure\Bootstrapper.cs" />
+    <Compile Include="Infrastructure\ConfigureRoutes.cs" />
     <Compile Include="Infrastructure\IBootstrapperTask.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
