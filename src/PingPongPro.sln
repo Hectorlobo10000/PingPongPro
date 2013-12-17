@@ -3,6 +3,10 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2012
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PinPongPro.Presentation", "PinPongPro.Presentation\PinPongPro.Presentation.csproj", "{6D146F57-01C1-406B-A359-16DC43ABDB55}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPongPro.Domain", "PingPongPro.Domain\PingPongPro.Domain.csproj", "{56622049-7746-472E-B4B8-5AA77842D060}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPongPro.Data", "PingPongPro.Data\PingPongPro.Data.csproj", "{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -13,6 +17,14 @@ Global
 		{6D146F57-01C1-406B-A359-16DC43ABDB55}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6D146F57-01C1-406B-A359-16DC43ABDB55}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{6D146F57-01C1-406B-A359-16DC43ABDB55}.Release|Any CPU.Build.0 = Release|Any CPU
+		{56622049-7746-472E-B4B8-5AA77842D060}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{56622049-7746-472E-B4B8-5AA77842D060}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{56622049-7746-472E-B4B8-5AA77842D060}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{56622049-7746-472E-B4B8-5AA77842D060}.Release|Any CPU.Build.0 = Release|Any CPU
+		{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
