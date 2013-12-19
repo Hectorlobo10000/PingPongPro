@@ -196,6 +196,7 @@
     <Compile Include="Infrastructure\Bootstrapper.cs" />
     <Compile Include="Infrastructure\ConfigureCommands.cs" />
     <Compile Include="Infrastructure\ConfigureRoutes.cs" />
+    <Compile Include="Infrastructure\ConfigureThisApp.cs" />
     <Compile Include="Infrastructure\ConfigureWebDependencies.cs" />
     <Compile Include="Infrastructure\DbConfiguration.cs" />
     <Compile Include="Infrastructure\IBootstrapperTask.cs" />

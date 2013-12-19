@@ -8,7 +8,7 @@ using PingPongPro.Domain;
 using PingPongPro.Domain.Commands;
 using It = Machine.Specifications.It;
 
-namespace PingPongPro.Presentation.Test
+namespace PingPongPro.Presentation.Test.TournamentSpecs
 {
     public class when_creating_a_tournament
     {

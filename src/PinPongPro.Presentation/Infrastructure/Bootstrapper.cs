@@ -21,6 +21,7 @@ namespace PinPongPro.Presentation.Infrastructure
             new List<IBootstrapperTask>
                 {
                     //boostrapper tasks here
+                    new ConfigureThisApp(_containerBuilder),
                     new ConfigureRoutes(),
                     new DbConfiguration(_containerBuilder),
                     new ConfigureWebDependencies(_containerBuilder),
