@@ -22,6 +22,9 @@ namespace PinPongPro.Presentation.Infrastructure
                 {
                     //boostrapper tasks here
                     new ConfigureRoutes(),
+                    new DbConfiguration(_containerBuilder),
+                    new ConfigureWebDependencies(_containerBuilder),
+                    new ConfigureCommands(_containerBuilder),
                    
                 }.ForEach(x => x.Run());
             return BuildContainer();

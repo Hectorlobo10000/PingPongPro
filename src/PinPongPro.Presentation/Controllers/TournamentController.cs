@@ -1,4 +1,6 @@
-﻿using System.Web.Http;
+﻿using System;
+using System.Web.Http;
+using AttributeRouting.Web.Http;
 using PinPongPro.Presentation.Models;
 using PingPongPro.Domain;
 using PingPongPro.Domain.Commands;
@@ -16,6 +18,7 @@ namespace PinPongPro.Presentation.Controllers
             _repository = repository;
         }
 
+        [POST("tournament")]
         public void CreateTournament(TournamentModel tournamentModel)
         {
             var id = SystemGuid.New();

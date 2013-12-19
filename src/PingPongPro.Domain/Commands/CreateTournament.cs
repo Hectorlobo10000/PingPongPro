@@ -10,6 +10,11 @@ namespace PingPongPro.Domain.Commands
         readonly string _name;
         readonly double _price;
 
+        protected CreateTournament()
+        {
+            
+        }
+
         public CreateTournament(Guid id, string name, string address, DateTime date, double price)
         {
             _id = id;
