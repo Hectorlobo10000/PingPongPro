@@ -179,6 +179,7 @@
     <Compile Include="Infrastructure\Bootstrapper.cs" />
     <Compile Include="Infrastructure\ConfigureRoutes.cs" />
     <Compile Include="Infrastructure\IBootstrapperTask.cs" />
+    <Compile Include="Models\TournamentModel.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
@@ -198,7 +199,10 @@
     <Content Include="Views\Shared\_Layout.cshtml" />
   </ItemGroup>
   <ItemGroup>
-    <Folder Include="Models\" />
+    <ProjectReference Include="..\PingPongPro.Domain\PingPongPro.Domain.csproj">
+      <Project>{56622049-7746-472E-B4B8-5AA77842D060}</Project>
+      <Name>PingPongPro.Domain</Name>
+    </ProjectReference>
   </ItemGroup>
   <ItemGroup>
     <Content Include="packages.config" />

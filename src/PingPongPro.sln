@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPongPro.Domain", "PingP
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPongPro.Data", "PingPongPro.Data\PingPongPro.Data.csproj", "{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PingPongPro.Presentation.Test", "PingPongPro.Presentation.Test\PingPongPro.Presentation.Test.csproj", "{09B09759-D851-42EF-B31C-F7DDCCA9B9CC}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -25,6 +27,10 @@ Global
 		{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{43A0E9C5-E6A5-4E91-96E8-D5CC5B401AE1}.Release|Any CPU.Build.0 = Release|Any CPU
+		{09B09759-D851-42EF-B31C-F7DDCCA9B9CC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{09B09759-D851-42EF-B31C-F7DDCCA9B9CC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{09B09759-D851-42EF-B31C-F7DDCCA9B9CC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{09B09759-D851-42EF-B31C-F7DDCCA9B9CC}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
