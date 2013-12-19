@@ -1,6 +1,7 @@
 ﻿using System.Web.Http;
 using PinPongPro.Presentation.Models;
 using PingPongPro.Domain;
+using PingPongPro.Domain.Commands;
 
 namespace PinPongPro.Presentation.Controllers
 {
@@ -17,7 +18,13 @@ namespace PinPongPro.Presentation.Controllers
 
         public void CreateTournament(TournamentModel tournamentModel)
         {
-            
+            var id = SystemGuid.New();
+
+            var command = new CreateTournament(id, tournamentModel.Name, tournamentModel.Address, tournamentModel.Date,
+                                               tournamentModel.Price);
+
+            _commandDispatcher.Dispatch(command);
+
         }
     }
 }

@@ -1,6 +1,6 @@
 ﻿namespace PingPongPro.Domain
 {
-    internal interface ICommand
+    public interface ICommand
     {
     }
 }
